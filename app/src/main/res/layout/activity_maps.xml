@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <com.example.helloworld.TaiWanMapView
+        android:id="@+id/tp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_marginTop="60sp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选中地区："
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/land"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="北京"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/uo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="该省/直辖市/特别行政区有10条记录，其中异常记录0条"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/all"
+        android:text="查看该地详细信息"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+</LinearLayout>

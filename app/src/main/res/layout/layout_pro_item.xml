@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    >
+    <TextView
+        android:id="@+id/ldt"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="2020年7月19日 11:55"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/lte"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="35.8"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/lhel"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="良好"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="70dp"
+        android:id="@+id/lpl"
+        android:layout_height="wrap_content"
+        android:text="兰泽市珠荷区青坪街道17号兰芝中学"
+        android:layout_gravity="center_vertical"
+        android:textSize="10dp"
+        android:layout_marginLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/lsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:text="无异常状况，主要是去打了个麻将"
+        android:textSize="10dp"
+        />
+
+</LinearLayout>

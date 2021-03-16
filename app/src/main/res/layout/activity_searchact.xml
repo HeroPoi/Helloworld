@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:text="您还没有注册哦，请先填写以下信息吧："
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/sa_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="姓名"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/sa_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="学号"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/sa_class"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="所属班级"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/sa_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="电话号码(11位)"
+        android:inputType="phone"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sa_do"
+        android:text="注册"
+        />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/bup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回主页面"
+        />
+
+    <Button
+        android:id="@+id/maps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全国数据视图"
+        />
+
+    <TextView
+        android:id="@+id/tod"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今日体温填报人数："
+        android:textSize="21dp"
+        />
+
+    <TextView
+        android:id="@+id/all"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="班级现有人数："
+        android:textSize="21dp"
+        />
+
+    <TextView
+        android:id="@+id/nop"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="未上报人数："
+        android:textSize="21dp"
+        />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="体温异常人数："
+        android:textSize="21dp"
+        />
+
+
+
+</LinearLayout>

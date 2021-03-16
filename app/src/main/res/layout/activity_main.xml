@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <ImageView
+        android:layout_marginBottom="15dp"
+        android:layout_width="360dp"
+        android:layout_height="300dp"
+        android:src="@drawable/zoom_3040159000_02"
+    />
+  <Button
+      android:id="@+id/B1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="录入体温"
+      android:layout_marginRight="15dp"
+      android:layout_marginLeft="15dp"
+      />
+
+  <Button
+      android:id="@+id/B2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="查看已录入体温"
+      android:layout_marginRight="15dp"
+      android:layout_marginLeft="15dp"
+      />
+
+    <Button
+        android:id="@+id/B4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="切换用户"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <Button
+        android:id="@+id/B3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加新用户"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+    <Button
+        android:id="@+id/B5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今日填报状况统计"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        />
+    <Button
+        android:id="@+id/B6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生成近七天体温报表"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        />
+
+</LinearLayout>

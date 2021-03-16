@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp">
+    <TextView
+        android:id="@+id/tev"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:text="36.5"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nv"
+            android:layout_marginTop="15dp"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="亚里莎小公主"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="2021/01/29 14:25"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/pv"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="兰泽市珠荷区青坪街道17号兰芝中学"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:id="@+id/pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="无特殊情况"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
