@@ -1,1 +1,1 @@
-#这是一个用于记录体温的安卓应用
+#A android app for record temperature
